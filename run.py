@@ -15,7 +15,6 @@ def submit():
         data_text = "\n".join(str(row) for row in results)
         result_label.config(text=data_text)
 
-
 window = tk.Tk()
 window.geometry('600x500')
 window.title('Phone Book Workers')

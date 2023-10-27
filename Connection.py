@@ -21,6 +21,6 @@ def handle_login(log, passs):
 
     # Pobierz wyniki zapytania
     results = mycursor.fetchall()
-
+#
     mydb.close()
     return results
